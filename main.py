@@ -11,9 +11,9 @@ import matplotlib.pyplot as plt
 
 # The following INIT variables are the initial conditions of the urine projectile
 # Change the following 4 variables to test different conditions
-INIT_VELOCITY = 1  # m/s
-INIT_ANGLE = 45  # deg
-INIT_HEIGHT = 0.30  # m
+INIT_VELOCITY = input("Enter initial velocity (m/s): ")  # m/s
+INIT_ANGLE = input("Enter initial angle (degrees): ")  # deg
+INIT_HEIGHT = input("Enter initial height (m): ")  # m
 
 # Smaller TIME_STEP results in higher accuracy
 TIME_STEP = 0.00001  # s
