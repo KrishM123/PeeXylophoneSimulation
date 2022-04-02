@@ -11,9 +11,9 @@ import matplotlib.pyplot as plt
 
 # The following INIT variables are the initial conditions of the urine projectile
 # Change the following 4 variables to test different conditions
-INIT_VELOCITY = input("Enter initial velocity (m/s): ")  # m/s
-INIT_ANGLE = input("Enter initial angle (degrees): ")  # deg
-INIT_HEIGHT = input("Enter initial height (m): ")  # m
+INIT_VELOCITY = float(input("\n\nEnter initial velocity (m/s): "))  # m/s
+INIT_ANGLE = float(input("Enter initial angle (degrees): "))  # deg
+INIT_HEIGHT = float(input("Enter initial height (m): "))  # m
 
 # Smaller TIME_STEP results in higher accuracy
 TIME_STEP = 0.00001  # s
@@ -60,7 +60,7 @@ R = H_POS
 g = 9.81
 h = INIT_HEIGHT
 V3 = V_VEL
-print(f"\n\nImpact velocity is: {V_VEL}. Range is: {H_POS}")
+print(f"\nImpact velocity is: {V_VEL}. Range is: {H_POS}")
 
 # Checks the validity of the V2 calculations from Derivation 1.docx
 # print(f"The calculated initial velocity assuming initial angle is 0 is: {(round(R, 2) * g) / math.sqrt(2 * g * h)}")
