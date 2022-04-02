@@ -1,4 +1,4 @@
-# PeeXylophoneSimulation
+# Pee Xylophone Simulation
 This simulation was used to verify my f(V2) function in Phase 2.
 
 This simulation works by using the inputted initial velocity, initial angle and initial height to model the path of the projectile and find it's impact velocity and range.
